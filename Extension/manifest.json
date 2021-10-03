@@ -1,0 +1,20 @@
+{
+  "name": "Quizizz Rocks",
+  "version": "2.0.0",
+  "manifest_version": 2,
+  "description": "Automatically gets the answers for Quizizz games and opens them in a new tab",
+  "icons": {
+    "16": "images/16.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": "images/16.png"
+  }
+}
